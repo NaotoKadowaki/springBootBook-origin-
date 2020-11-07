@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" th:href="{@/webjars/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
     <title>Title</title>
 </head>
 <body class="bg-light">
@@ -23,6 +23,10 @@
                     <div class="form-group">
                         <label for="address" th:text="#{address}"></label>
                         <input type="text" class="form-control" th:field="*{address}" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber" th:text="#{phoneNumber}"></label>
+                        <input type="tel" class="form-control" th:field="*{phoneNumber}" disabled>
                     </div>
 
                     <div class="form-group">
