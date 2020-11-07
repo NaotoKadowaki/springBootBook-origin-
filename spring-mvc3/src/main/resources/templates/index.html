@@ -24,12 +24,33 @@
                         <input type="text" class="form-control" th:errorclass="is-invalid" th:field="*{address}">
                         <div class="invalid-feedback" th:errors="*{address}"></div>
                     </div>
+
+                    <div class="form-group">
+                        <label for="phone" th:text="#{phoneNumber}"></label>
+                        <input type="tel" class="form-control" th:errorclass="is-invalid" th:field="*{phoneNumber}">
+                        <div class="invalid-feedback" th:errors="*{phoneNumber}"></div>
+                    </div>
+                     
+                    <div class="form-group">
+                        <label for="price" th:text="#{price}"></label>
+                        <input type="text" class="form-control" th:errorclass="is-invalid" th:field="*{price}">
+                        <div class="invalid-feedback" th:errors="*{price}"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="paymentDeadline" th:text="#{paymentDeadline}"></label>
+                        <input type="date" class="form-control" th:errorclass="is-invalid" th:field="*{paymentDeadline}">
+                        <div class="invalid-feedback" th:errors="*{paymentDeadline}"></div>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block my-4" type="submit" th:text="#{register}"></button>
                 </form>
 
 
             </div>
         </div>
     </div>
-    
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
 </body>
 </html>
