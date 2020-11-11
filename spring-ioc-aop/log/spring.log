@@ -1,0 +1,262 @@
+2020-11-11 14:45:42.673  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Starting SpringIocAopApplication on MacBook-Pro.local with PID 93896 (/Users/naoto.k/Documents/SpringBootBook/spring-ioc-aop/target/classes started by naoto.k in /Users/naoto.k/Documents/SpringBootBook/spring-ioc-aop)
+2020-11-11 14:45:42.676  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : No active profile set, falling back to default profiles: default
+2020-11-11 14:45:42.734  INFO 93896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-11 14:45:42.734  INFO 93896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-11 14:45:43.371  INFO 93896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-11 14:45:43.421  INFO 93896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+2020-11-11 14:45:43.913  INFO 93896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-11 14:45:43.922  INFO 93896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-11 14:45:43.923  INFO 93896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-11 14:45:43.999  INFO 93896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-11 14:45:43.999  INFO 93896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1264 ms
+2020-11-11 14:45:44.041  INFO 93896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-11 14:45:44.211  INFO 93896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-11 14:45:44.238  INFO 93896 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b12d9904-f09e-4877-b35d-9172e0a346ee'
+2020-11-11 14:45:44.284  INFO 93896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-11 14:45:44.322  INFO 93896 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-11 14:45:44.359  INFO 93896 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-11 14:45:44.393  INFO 93896 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-11-11 14:45:44.396  WARN 93896 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-11 14:45:44.495  INFO 93896 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-11 14:45:44.560  INFO 93896 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-11 14:45:44.586  INFO 93896 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-11-11 14:45:44.712  INFO 93896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-11 14:45:44.714  INFO 93896 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-11-11 14:45:45.012  INFO 93896 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-11 14:45:45.016  INFO 93896 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-11 14:45:45.139  INFO 93896 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-11-11 14:45:45.145  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Started SpringIocAopApplication in 2.78 seconds (JVM running for 3.494)
+2020-11-11 14:45:45.147  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2020-11-11 14:45:45.147  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2020-11-11 14:45:45.147  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.context.annotation.internalCommonAnnotationProcessor
+2020-11-11 14:45:45.147  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.context.annotation.internalPersistenceAnnotationProcessor
+2020-11-11 14:45:45.147  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.context.event.internalEventListenerProcessor
+2020-11-11 14:45:45.147  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.context.event.internalEventListenerFactory
+2020-11-11 14:45:45.147  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:springIocAopApplication
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:homeController
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:scopeController
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:propertySourcesPlaceholderConfigurer
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:websocketServletWebServerCustomizer
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+2020-11-11 14:45:45.148  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:tomcatServletWebServerFactory
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:servletWebServerFactoryCustomizer
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:tomcatServletWebServerFactoryCustomizer
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.context.internalConfigurationPropertiesBinderFactory
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.context.internalConfigurationPropertiesBinder
+2020-11-11 14:45:45.149  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.context.properties.BoundConfigurationProperties
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:server-org.springframework.boot.autoconfigure.web.ServerProperties
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:webServerFactoryCustomizerBeanPostProcessor
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:errorPageRegistrarBeanPostProcessor
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:dispatcherServlet
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:dispatcherServletRegistration
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2020-11-11 14:45:45.150  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:taskExecutorBuilder
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:applicationTaskExecutor
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:defaultValidator
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:methodValidationPostProcessor
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:error
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:beanNameViewResolver
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:conventionErrorViewResolver
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:errorAttributes
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:basicErrorController
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:errorPageCustomizer
+2020-11-11 14:45:45.151  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:preserveErrorControllerTargetClassPostProcessor
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:requestMappingHandlerAdapter
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:requestMappingHandlerMapping
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:welcomePageHandlerMapping
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcConversionService
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcValidator
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcContentNegotiationManager
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcPathMatcher
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcUrlPathHelper
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:viewControllerHandlerMapping
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:beanNameHandlerMapping
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:routerFunctionMapping
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:resourceHandlerMapping
+2020-11-11 14:45:45.152  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcResourceUrlProvider
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:defaultServletHandlerMapping
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:handlerFunctionAdapter
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcUriComponentsContributor
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:httpRequestHandlerAdapter
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:simpleControllerHandlerAdapter
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:handlerExceptionResolver
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcViewResolver
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mvcHandlerMappingIntrospector
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:defaultViewResolver
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:viewResolver
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:requestContextFilter
+2020-11-11 14:45:45.153  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:formContentFilter
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.aop.config.internalAutoProxyCreator
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:applicationAvailability
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari
+2020-11-11 14:45:45.154  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:dataSource
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:hikariPoolDataSourceMetadataProvider
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:dataSourceInitializerPostProcessor
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:openEntityManagerInViewInterceptor
+2020-11-11 14:45:45.155  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:openEntityManagerInViewInterceptorConfigurer
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:transactionManager
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jpaVendorAdapter
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:entityManagerFactoryBuilder
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:entityManagerFactory
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:dataSourceInitializedPublisher
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher$DataSourceInitializationCompletionListener
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:lifecycleProcessor
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:persistenceExceptionTranslationPostProcessor
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:entityManagerFactoryBootstrapExecutorCustomizer
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:emBeanDefinitionRegistrarPostProcessor
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jpaMappingContext
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jpaContext
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.data.jpa.util.JpaMetamodelCacheCleanup
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension
+2020-11-11 14:45:45.156  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:coffeeRepository
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:standardJacksonObjectMapperBuilderCustomizer
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jacksonObjectMapperBuilder
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:parameterNamesModule
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jacksonObjectMapper
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jsonComponentModule
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:stringHttpMessageConverter
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:mappingJackson2HttpMessageConverter
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:messageConverters
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.data.web.config.ProjectingArgumentResolverRegistrar
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:projectingArgumentResolverBeanPostProcessor
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.data.web.config.SpringDataWebConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:pageableResolver
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:sortResolver
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.data.web.config.SpringDataJacksonConfiguration
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jacksonGeoModule
+2020-11-11 14:45:45.157  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:pageableCustomizer
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:sortCustomizer
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:h2Console
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.h2.console-org.springframework.boot.autoconfigure.h2.H2ConsoleProperties
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:jdbcTemplate
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:namedParameterJdbcTemplate
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:taskSchedulerBuilder
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafJava8TimeDialect
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:java8TimeDialect
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:thymeleafViewResolver
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafDefaultConfiguration
+2020-11-11 14:45:45.158  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:templateEngine
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:defaultTemplateResolver
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.transaction.config.internalTransactionAdvisor
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:transactionAttributeSource
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:transactionInterceptor
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.transaction.config.internalTransactionalEventListenerFactory
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:transactionTemplate
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:platformTransactionManagerCustomizers
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:restTemplateBuilder
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:tomcatWebServerFactoryCustomizer
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:characterEncodingFilter
+2020-11-11 14:45:45.159  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:localeCharsetMappingsCustomizer
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:multipartConfigElement
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:multipartResolver
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:inMemoryDatabaseShutdownExecutor
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:restartingClassPathChangedEventListener
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:classPathFileSystemWatcher
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:classPathRestartStrategy
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:fileSystemWatcherFactory
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:conditionEvaluationDeltaLoggingListener
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:liveReloadServer
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:optionalLiveReloadServer
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:liveReloadServerEventListener
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2020-11-11 14:45:45.160  INFO 93896 --- [restartedMain] c.example.demo.SpringIocAopApplication   : Bean名:org.springframework.orm.jpa.SharedEntityManagerCreator#0
+2020-11-11 14:45:56.801  INFO 93896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-11 14:45:56.801  INFO 93896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-11 14:45:56.807  INFO 93896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-11-11 14:46:00.951  INFO 93896 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-11 14:46:00.952  INFO 93896 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-11-11 14:46:00.955  INFO 93896 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-11 14:46:01.167  WARN 93896 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: データベースはすでに閉じられています (VM終了時の自動データベースクローズを無効にするためには、db URLに ";DB_CLOSE_ON_EXIT=FALSE" を追加してください)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-11-11 14:46:01.168  INFO 93896 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-11 14:46:01.170  INFO 93896 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
