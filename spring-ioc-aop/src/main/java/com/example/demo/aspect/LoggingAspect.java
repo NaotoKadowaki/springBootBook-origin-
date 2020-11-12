@@ -1,6 +1,7 @@
 package com.example.demo.aspect;
 
 import lombok.extern.slf4j.Slf4j;
+import org.aopalliance.intercept.Joinpoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 import org.aspectj.lang.annotation.Before;
@@ -16,17 +17,19 @@ import org.aspectj.lang.annotation.Around;
 @Component
 public class LoggingAspect {
 
-    @Before("execution(Stringcom.example.demo.controller.HomeController.showList(..))"
+    @Before("execution(String com.example.demo.controller.HomeController.showList(..))"
     )
     public void startLog(JoinPoint jp){
         log.info("{}:Before処理",jp.getSignature());
     }
 
 
+
     @After("execution(* com.example.demo.controller.HomeController.*(..))")
     public void endLog(JoinPoint jp) {
         log.info("{}: After処理", jp.getSignature());
     }
+
 
     @Around("execution(* com.example.demo..*(..))")
     public Object startAndEndLog(ProceedingJoinPoint pjp) throws Throwable {
