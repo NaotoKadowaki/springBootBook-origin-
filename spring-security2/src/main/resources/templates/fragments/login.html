@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <th:block th:insert="fragments/base :: header"></th:block>
-    <link rel="stylesheet" href="securityapp.css">
 </head>
 <body class="bg-gradient-primary">
 <!-- Main -->
@@ -33,14 +32,17 @@
                                 </div>
                                 <form th:action="@{/login}" class="user" method="post">
                                     <div class="form-group">
-                                        <input type="text" class="form-control form-control-user" name="username" placeholder="ユーザ名">
+                                        <input type="text" class="form-control form-control-user" name="username"
+                                               placeholder="ユーザ名">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control form-control-user" name="password" placeholder="パスワード">
+                                        <input type="password" class="form-control form-control-user" name="password"
+                                               placeholder="パスワード">
                                     </div>
                                     <div class="form-group">
                                         <div class="custom-control custom-checkbox small">
-                                            <input type="checkbox" class="custom-control-input" id="remember-me" name="remember-me">
+                                            <input type="checkbox" class="custom-control-input" id="remember-me"
+                                                   name="remember-me">
                                             <label class="custom-control-label" for="remember-me">ログインしたままにする</label>
                                         </div>
                                     </div>
